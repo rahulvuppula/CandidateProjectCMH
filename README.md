@@ -46,18 +46,17 @@
 
    ```bash
    git clone https://github.com/rahulvuppula/CandidateProjectCMH
-
-Navigate to the project directory:
-cd your-repo
-Open the project in your preferred IDE.
-Build and run the project.
+   Navigate to the project directory:
+   cd your-repo
+   Open the project in your preferred IDE.
+   Build and run the project.
 
 ## Usage
 
-Make a POST request to /api/CheckInterviews with a JSON payload containing the dateOfInterview.
-Make a GET request to https://cmricandidates.azurewebsites.net/api/getcandidates to retrieve candidate interview data.
-Dependencies
+- Make a POST request to /api/CheckInterviews with a JSON payload containing the dateOfInterview.
+- Make a GET request to https://cmricandidates.azurewebsites.net/api/getcandidates to retrieve candidate interview data.
+## Dependencies
 .NET SDK
 Newtonsoft.Json (for JSON serialization/deserialization)
-Contributors
-Rahul Vuppula
+## Contributors
+- Rahul Vuppula
