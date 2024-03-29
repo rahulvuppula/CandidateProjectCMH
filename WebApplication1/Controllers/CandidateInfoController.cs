@@ -40,7 +40,7 @@ namespace WebApplication1.Controllers
                 return Ok(new
                 {
                     numberOfInterviews = interviewsOnTargetDate.Count,
-                    list = result
+                    //list = result
                 });
             }
             catch (HttpRequestException ex)
